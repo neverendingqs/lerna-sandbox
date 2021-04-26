@@ -1,0 +1,29 @@
+{
+  "name": "lerna-package-1",
+  "version": "0.0.0",
+  "description": "lerna package 1",
+  "author": "Mark Tse <mark.tse@neverendingqs.com>",
+  "homepage": "https://github.com/neverendingqs/lerna-sandbox#readme",
+  "license": "Apache-2.0",
+  "main": "lib/lerna-package-1.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neverendingqs/lerna-sandbox.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/neverendingqs/lerna-sandbox/issues"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
